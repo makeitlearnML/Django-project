@@ -1,8 +1,6 @@
 from django.shortcuts import render, HttpResponse
 
-
 # Create your views here.
-
 
 def index(request):   
     return render(request, 'index.html')
@@ -13,6 +11,7 @@ def about(request):
     return HttpResponse('welcome to about page')
 
 def services(request):
+
     return HttpResponse('welcome to services page')
 
 def contact(request):
